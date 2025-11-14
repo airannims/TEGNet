@@ -42,7 +42,7 @@ conda activate tegnet
 
 For training (e.g., Ag2TeS.csv, Bi2Te3.csv) and the property/ folder contains material property CSV files.
 
-Typical install time: 20 minutes on a standard desktop.
+Typical install time: about 20 minutes on a standard desktop.
 
 ## 3. Demo
 ### 3.1. Running the Demo
@@ -61,6 +61,9 @@ or for segmented TEGs:
 python segmented_MgAgSb_Bi2Te3.py
 ```
 Note: The scripts can be adjusted to use different material models, geometries, and boundary conditions.
+Expected Run Time for Demo: 
+- Training: Within 5 minutes on a typical desktop computer
+- Simulation / Prediction: 1–5 minutes depending on input parameters
 
 ### 3.2 Expected Output
 CSV files exported to the working directory, for example
